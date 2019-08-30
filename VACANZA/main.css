@@ -1,0 +1,187 @@
+.front{
+
+            
+            background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("background.png");
+            background-position: center;
+            width: 100%;
+            height: 90vh;
+            background-size: 1500px 800px;
+            background-repeat: no-repeat;
+            background-attachment: fixed; 
+
+    }
+    .vacpix{
+        position: absolute;
+        top: 400px;
+        left: 300px;
+        width: 750px;
+        height: 150px;
+        margin: auto;
+    }
+    .logopos{
+                position: relative;
+    top: 100px;
+    left: 582px;
+    margin-left: auto;
+    margin-right: auto;
+    }
+    .butpos{
+         position: absolute;
+        top: 550px;
+        left: 510px;
+        margin: auto;
+    }
+    .middle{
+        background-color: white;
+
+    }
+    .box{
+        background-color: grey;
+        margin: 5% 10%;
+        height: 20%;
+        width: 80%;
+
+    }
+    .r1text{
+           float: left;
+           width: 72%;
+           height: 25%;
+    }
+    .r1img{
+        width: 20%;
+        height: 25%;
+    }
+    .r2img{
+       float: left;
+       width: 20%;
+       height: 25%;
+    }
+    .r2text{
+        width: 72%;
+        height: 2%;
+    }
+    .r3text{
+        width: 72%;
+        height: 2%;
+      float: left;
+    }
+    .r3img{
+        width: 20%;
+        height: 25%;
+     
+    }
+    
+    .img {
+  border-radius: 50%;
+  -webkit-transition: -webkit-transform 0.5s ease-in-out;
+          transition:         transform 0.5s ease-in-out;
+}
+img:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+	#logorot{
+		    position: relative;
+    top: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 17%;
+    opacity: 0.9;
+    transition: transform ease-in-out 1s;
+
+	}
+    h3{
+		font-family: cursive;
+		font-size: 30px;
+	}
+	.sans{
+		font-family: sans-serif;
+	}
+	.imgcenter{
+    text-align: center;
+	}
+	.imgright
+	{
+        text-align: right;
+	}
+	.hvcenteredthree{
+    position:absolute;
+    top:50px;
+    bottom:0;
+    left:1300px;
+    margin:auto;
+}
+	.hvcentered {
+    position:absolute;
+    top:400px;
+    right:10px;
+    bottom:0;
+    left:-300px;
+    margin:auto;
+}
+    .border{
+  width: 1300px;
+  height: 150px;
+ border: 5px solid black;
+  padding: 15px;
+  overflow: hidden;
+  background-image: url("footer.png");
+  
+    }
+    .SHIFT1
+    {
+    	position:absolute;
+    top:600px;
+    }
+    .SHIFT2{
+    	position: absolute;
+    	top: 815px;
+    }
+    .SHIFT3{
+    	position: absolute;
+    	top: 1030px;
+    }
+    .shiftfooter{
+    	position: absolute;
+    	top: 1250px;
+    }
+    @-webkit-keyframes zoom {
+    from {
+    	-webkit-transform: scale(1,1);
+    }
+    to {
+    	-webkit-transform: scale(1.5,1.5);
+    }
+}
+
+@keyframes zoom {
+   from {
+        transform: scale(1,1);
+   }
+   to {
+        transform: scale(1.5,1.5);
+   }
+}
+
+
+.img {
+    animation: zoom 15;
+    animation: zoom 15s alternate infinite;
+    overflow: hidden;
+}
+.rounded{
+	border-radius: 30px;
+}
+.position1{
+position:absolute;
+    top:400px;
+    bottom: 0;
+    left:-300px;
+}
+.position2{
+position:absolute;
+    top:400px;
+    left:-100px;
+}
+}

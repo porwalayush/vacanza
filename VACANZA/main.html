@@ -2,163 +2,65 @@
 <html>
 <head>
 	<title>vacanza2019</title>
-	<style>
-	body{
-		background-image: url("background.png");
-		background-repeat: no-repeat;
-		background-position: center;
-		background-attachment: fixed;
-		background-size: 1500px 800px;
-
-	}
-    #transparent-box {
-    position: relative;
-    height: 550px;
-}
-	#logorot{
-		    position: relative;
-    top: 100px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 17%;
-    opacity: 0.9;
-    transition: transform ease-in-out 1s;
-
-	}
-    h3{
-		font-family: cursive;
-		font-size: 30px;
-	}
-	.sans{
-		font-family: sans-serif;
-	}
-	.imgcenter{
-    text-align: center;
-	}
-	div.imgright
-	{
-        text-align: right;
-	}
-	.hvcenteredthree{
-    position:absolute;
-    top:50px;
-    bottom:0;
-    left:1300px;
-    margin:auto;
-}
-	.hvcentered {
-    position:absolute;
-    top:400px;
-    right:10px;
-    bottom:0;
-    left:-300px;
-    margin:auto;
-}
-    .border{
-  width: 1300px;
-  height: 150px;
- border: 5px solid black;
-  padding: 15px;
-  overflow: hidden;
-  background-image: url("footer.png");
-  
-    }
-    .SHIFT1
-    {
-    	position:absolute;
-    top:600px;
-    }
-    .SHIFT2{
-    	position: absolute;
-    	top: 815px;
-    }
-    .SHIFT3{
-    	position: absolute;
-    	top: 1030px;
-    }
-    .shiftfooter{
-    	position: absolute;
-    	top: 1250px;
-    }
-    p{
-    	font-family: cursive;
-		font-size: 20px;
-    	background-color: lightgrey;
-    	color: black;
-    	padding: 40px;
-    }
-    @-webkit-keyframes zoom {
-    from {
-    	-webkit-transform: scale(1,1);
-    }
-    to {
-    	-webkit-transform: scale(1.5,1.5);
-    }
-}
-
-@keyframes zoom {
-   from {
-        transform: scale(1,1);
-   }
-   to {
-        transform: scale(1.5,1.5);
-   }
-}
-
-
-.img {
-    animation: zoom 15;
-    animation: zoom 15s alternate infinite;
-    overflow: hidden;
-}
-.rounded{
-	border-radius: 16px;
-}
-.position1{
-position:absolute;
-    top:400px;
-    bottom: 0;
-    left:-300px;
-}
-.position2{
-position:absolute;
-    top:400px;
-    left:-100px;
-}
-}
-</style>
+	<link rel="stylesheet" type="text/css" href="main.css">
 </head>
 <body>
-
-<a href="https://csiakgec.in/" font-family><h3>CSI</h3></a>
-<a href="TOPRIGHT.html"><div class="hvcenteredthree"><img src="Hamburger_icon.svg"></div></a>
-<div id="logorot">
-	<img src="logo.png">
+<div class="front">
+    <a href="https://csiakgec.in/" font-family><h3>CSI</h3></a>
+    <a href="TOPRIGHT.html"><div class="hvcenteredthree"><img src="Hamburger_icon.svg"></div></a>
+	<div class="logopos">
+        <img src="logo.png" style="width: 140px; height: 140px;">
+    </div>
+              <div class="vacpix">
+                <img src="vac.svg">
+              </div>
+    <div class="butpos">
+         <button class="rounded" style="background-color: transparent; width:150px;height: 60px;"><b>REGISTER</b></button>
+         <button class="rounded" style="background-color: transparent;width:150px; height: 60px;"><b>START QUIZ</b>
+         </button>
+    </div>
 </div>
-<div class="hvcentered"><img width="2000px" height="100px" src="vac.svg" ></div>
-<button class="rounded">REGISTER</button>
-<a href="quizzes.html"><button class="rounded">START QUIZ</button></a>
-<p class="SHIFT1 sans">
-<img src="vintage.jpg" align="right" width="100px"height="100px">
-	Round 1 comprises of 4 domains from which participants have to select at least 2 domains and can choose maximum of 4 domains for more points. The more domain you opt for , the more you score.
-The four domains are:
-Vintage Photography   |   Leaf Collage   |   Origami Art   |   Face Mask Art
+<div class="middle">
+    <div class="box">
+        <div class="r1text">
+           <h3>Round 1 </h3>
+            <hr>
+            <p>comprises of 4 domains from which participants have to select at least 2 domains and can choose      maximum of 4 domains for more points. The more domain you opt for , the more you score.
+            The four domains are:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp; &nbsp;Vintage Photography   | &nbsp;  Leaf Collage   | &nbsp;&nbsp;  Origami Art   | &nbsp;  Face Mask Art</p>
+         <button>RULES</button>
+        </div> 
+        <div >  
+               <img src="vintage.jpg" class="r1img">
+        </div>
+    </div>
+<div class="box">
+ <div >
+   <img src="quiz.jpg" class="r2img">
+ </div>   
+<div class="r2text">
+<h3>ROUND 2</h3>
+    <hr>
+<p>Test your knowledge just by answering some basic questions and gain points easily.Round 2 contains quiz questions based on popular TV series and sports.
+The field are as follows:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp; Football   |  &nbsp; Stranger Things   |  &nbsp; Cricket   |  &nbsp;  F.r.i.e.n.d.s
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <button>RULES</button>
 </p>
-<p class="SHIFT2 sans">
-<img src="quiz.jpg" align="left" width="100px" height="100px">
-	ROUND 2
-Test your knowledge just by answering some basic questions and gain points easily.Round 2 contains quiz questions based on popular TV series and sports.
-The field are as follows:
-Football   |  &nbsp; Stranger Things   |   Cricket   |   F.r.i.e.n.d.s
-<button>RULES</button>
-</p>
-<p class="SHIFT3 sans">
-	<img src="magic.jpg" align="right" width="100px" height="100px">
-	ROUND 3
-The final round consists of making an interesting and astonishing magic trick video which might force people to say "How did you do that!". The best and the most surprising video will be selected as the winner.
+</div>
+</div>
+<div class="box">
+    <div class="r3text">   
+	
+<h3>ROUND 3</h3>
+    <hr>
+<p>The final round consists of making an interesting and astonishing magic trick video which might force people to say "How did you do that!". The best and the most surprising video will be selected as the winner.
 <button>RULES</button></p>
-<img  class="border shiftfooter img" src="footer.png">
+    </div>
+    <div >
+    <img src="magic.jpg" class="r3img">
+    </div>
+</div>
 </body>
 </html>
