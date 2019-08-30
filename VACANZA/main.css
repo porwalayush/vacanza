@@ -50,11 +50,13 @@
     .r1img{
         width: 20%;
         height: 25%;
+        margin-left: 10px;
     }
     .r2img{
        float: left;
-       width: 20%;
+       width: 18%;
        height: 25%;
+       margin-right: 10px;
     }
     .r2text{
         width: 72%;
@@ -68,7 +70,11 @@
     .r3img{
         width: 20%;
         height: 25%;
+        margin-left: 10px;
      
+    }
+    p{
+        font-family: sans-serif;
     }
     
     .img {
@@ -91,10 +97,10 @@ img:hover {
     transition: transform ease-in-out 1s;
 
 	}
-    h3{
-		font-family: cursive;
-		font-size: 30px;
-	}
+
+    .last{
+        background-image: url("footer.png");
+    }
 	.sans{
 		font-family: sans-serif;
 	}
