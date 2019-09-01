@@ -2,6 +2,10 @@
     margin: 0px;
     padding: 0px;
 }
+body{
+    overflow-x: hidden;
+    
+}
 .front{
 
             
@@ -97,7 +101,7 @@
   transform: scale(1.5) rotate(360deg);
     }
 	#footer {
-    position: absolute;
+    /*position: absolute;*/
     background-image: url(footer.png);
     background-repeat: no-repeat;
     width: 100%;
@@ -105,19 +109,18 @@
     animation-name: zoom;
     animation-iteration-count: infinite;
     animation-duration: 20s;
-    
     overflow: hidden;
     }
     @keyframes zoom{
     0% {
     transform: scale(1);
-}
-50% {
+     }
+   50% {
     transform: scale(1.2);
-}
-100% {
+    }
+    100% {
     transform: scale(1);
-}
+    }
 align-content: normal;
 align-items: normal;
      }
@@ -125,7 +128,7 @@ align-items: normal;
     .copyright{
         text-align: center;
         position: relative;
-        top: 120px;
+        top: 0px;
     height: 45px;
     line-height: 45px;
     font-family: arial;
